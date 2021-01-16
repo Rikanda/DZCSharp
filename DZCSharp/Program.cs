@@ -6,7 +6,9 @@ namespace DZCSharp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.Write("Как тебя зовут? ");
+            string name = Console.ReadLine();
+            Console.WriteLine($"Привет, {name}! Сегодня {DateTime.Now}");
         }
     }
 }
